@@ -1,0 +1,4 @@
+<!-- defines vehicle types & their properties -->
+<types>
+    <type id="car" length="20.0" maxSpeed="13.89" accel="2.6" decel="4.5" sigma="0.5"/>
+</types>
