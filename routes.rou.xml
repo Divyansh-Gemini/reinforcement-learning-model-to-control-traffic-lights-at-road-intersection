@@ -15,15 +15,15 @@
     <route id="routeLR" edges="edgeOutLeft edgeInRight"/>
 
     <vehicle id="veh00" type="car" route="routeTB" depart="1" departSpeed="10"/>
-    <vehicle id="veh01" type="car" route="routeTR" depart="2" departSpeed="10"/>
-    <vehicle id="veh02" type="car" route="routeTL" depart="3" departSpeed="10"/>
-    <vehicle id="veh03" type="car" route="routeBT" depart="2" departSpeed="10"/>
     <vehicle id="veh04" type="car" route="routeBR" depart="1" departSpeed="10"/>
+    <vehicle id="veh01" type="car" route="routeTR" depart="2" departSpeed="10"/>
+    <vehicle id="veh03" type="car" route="routeBT" depart="2" departSpeed="10"/>
     <vehicle id="veh05" type="car" route="routeBL" depart="2" departSpeed="10"/>
     <vehicle id="veh06" type="car" route="routeRT" depart="2" departSpeed="10"/>
-    <vehicle id="veh07" type="car" route="routeRB" depart="3" departSpeed="10"/>
     <vehicle id="veh08" type="car" route="routeRL" depart="2" departSpeed="10"/>
-    <vehicle id="veh09" type="car" route="routeLT" depart="4" departSpeed="10"/>
     <vehicle id="veh10" type="car" route="routeLB" depart="2" departSpeed="10"/>
+    <vehicle id="veh07" type="car" route="routeRB" depart="3" departSpeed="10"/>
+    <vehicle id="veh02" type="car" route="routeTL" depart="3" departSpeed="10"/>
     <vehicle id="veh11" type="car" route="routeLR" depart="3" departSpeed="10"/>
+    <vehicle id="veh09" type="car" route="routeLT" depart="4" departSpeed="10"/>
 </routes>

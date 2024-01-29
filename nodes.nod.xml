@@ -1,7 +1,7 @@
 <!-- defines nodes in the n/w -->
 <nodes>
     <!-- nodes -->
-    <node id="nodeCenter" x="0" y="0"/>
+    <node id="nodeCenter" x="0" y="0" type="traffic_light"/>
     <node id="nodeTop" x="0" y="50"/>
     <node id="nodeBottom" x="0" y="-50"/>
     <node id="nodeRight" x="50" y="0"/>

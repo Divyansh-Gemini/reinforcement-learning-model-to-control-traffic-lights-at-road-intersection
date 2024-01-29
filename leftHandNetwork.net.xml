@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-01-22 15:14:30 by Eclipse SUMO netedit Version 1.19.0
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+<!-- generated on 2024-01-29 11:10:34 by Eclipse SUMO netconvert Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="D:\SET\leftHandNetwork.net.xml"/>
+        <sumo-net-file value="rightHandNetwork.net.xml"/>
     </input>
 
     <output>
-        <output-file value="D:\SET\leftHandNetwork.net.xml"/>
+        <output-file value="leftHandNetwork.net.xml"/>
     </output>
 
     <processing>
         <geometry.min-radius.fix.railways value="false"/>
         <geometry.max-grade.fix value="false"/>
         <offset.disable-normalization value="true"/>
-        <lefthand value="1"/>
+        <flip-y-axis value="true"/>
+        <lefthand value="0"/>
     </processing>
 
     <junctions>
@@ -34,7 +35,7 @@
 
 <net version="1.16" junctionCornerDetail="5" lefthand="true" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
 
-    <location netOffset="50.00,50.00" convBoundary="0.00,-100.00,100.00,0.00" origBoundary="-50.00,-50.00,50.00,50.00" projParameter="!"/>
+    <location netOffset="50.00,50.00" convBoundary="0.00,0.00,100.00,100.00" origBoundary="-50.00,-50.00,50.00,50.00" projParameter="!"/>
 
     <type id="car"/>
 
@@ -124,7 +125,7 @@
     </edge>
 
     <edge id="edgeInBottom" from="nodeCenter" to="nodeBottom" priority="-1" length="100.00">
-        <lane id="edgeInBottom_0" index="0" speed="13.89" length="100.00" shape="48.40,-42.80 48.40,0.00"/>
+        <lane id="edgeInBottom_0" index="0" speed="13.89" length="100.00" shape="48.40,-42.80 48.40,-0.00"/>
     </edge>
     <edge id="edgeInLeft" from="nodeCenter" to="nodeLeft" priority="-1" length="100.00">
         <lane id="edgeInLeft_0" index="0" speed="13.89" length="100.00" shape="42.80,-51.60 0.00,-51.60"/>
@@ -136,7 +137,7 @@
         <lane id="edgeInTop_0" index="0" speed="13.89" length="100.00" shape="51.60,-57.20 51.60,-100.00"/>
     </edge>
     <edge id="edgeOutBottom" from="nodeBottom" to="nodeCenter" priority="-1" length="100.00">
-        <lane id="edgeOutBottom_0" index="0" speed="13.89" length="100.00" shape="51.60,0.00 51.60,-42.80"/>
+        <lane id="edgeOutBottom_0" index="0" speed="13.89" length="100.00" shape="51.60,-0.00 51.60,-42.80"/>
     </edge>
     <edge id="edgeOutLeft" from="nodeLeft" to="nodeCenter" priority="-1" length="100.00">
         <lane id="edgeOutLeft_0" index="0" speed="13.89" length="100.00" shape="0.00,-48.40 42.80,-48.40"/>
@@ -155,7 +156,7 @@
         <phase duration="3"  state="rrrryyyyrrrryyyy"/>
     </tlLogic>
 
-    <junction id="nodeBottom" type="priority" x="50.00" y="0.00" incLanes="edgeInBottom_0" intLanes=":nodeBottom_0_0" shape="50.00,-0.00 46.80,-0.00 50.00,-0.00">
+    <junction id="nodeBottom" type="priority" x="50.00" y="-0.00" incLanes="edgeInBottom_0" intLanes=":nodeBottom_0_0" shape="50.00,-0.00 46.80,-0.00 50.00,-0.00">
         <request index="0" response="0" foes="0" cont="0"/>
     </junction>
     <junction id="nodeCenter" type="traffic_light" x="50.00" y="-50.00" incLanes="edgeOutTop_0 edgeOutRight_0 edgeOutBottom_0 edgeOutLeft_0" intLanes=":nodeCenter_0_0 :nodeCenter_1_0 :nodeCenter_16_0 :nodeCenter_17_0 :nodeCenter_4_0 :nodeCenter_5_0 :nodeCenter_18_0 :nodeCenter_19_0 :nodeCenter_8_0 :nodeCenter_9_0 :nodeCenter_20_0 :nodeCenter_21_0 :nodeCenter_12_0 :nodeCenter_13_0 :nodeCenter_22_0 :nodeCenter_23_0" shape="46.80,-57.20 53.20,-57.20 53.64,-54.98 54.20,-54.20 54.98,-53.64 55.98,-53.31 57.20,-53.20 57.20,-46.80 54.98,-46.36 54.20,-45.80 53.64,-45.02 53.31,-44.02 53.20,-42.80 46.80,-42.80 46.36,-45.02 45.80,-45.80 45.02,-46.36 44.02,-46.69 42.80,-46.80 42.80,-53.20 45.02,-53.64 45.80,-54.20 46.36,-54.98 46.69,-55.98">
@@ -195,54 +196,54 @@
     <junction id=":nodeCenter_22_0" type="internal" x="46.80" y="-49.04" incLanes=":nodeCenter_14_0 edgeOutRight_0" intLanes=":nodeCenter_1_0 :nodeCenter_2_0 :nodeCenter_3_0 :nodeCenter_4_0 :nodeCenter_5_0 :nodeCenter_9_0 :nodeCenter_10_0"/>
     <junction id=":nodeCenter_23_0" type="internal" x="44.00" y="-49.20" incLanes=":nodeCenter_15_0 edgeOutBottom_0 edgeOutRight_0 edgeOutTop_0" intLanes=":nodeCenter_0_0 :nodeCenter_5_0 :nodeCenter_10_0"/>
 
-    <connection from="edgeInBottom" to="edgeOutBottom" fromLane="0" toLane="0" via=":nodeBottom_0_0" dir="T" state="M"/>
-    <connection from="edgeInLeft" to="edgeOutLeft" fromLane="0" toLane="0" via=":nodeLeft_0_0" dir="T" state="M"/>
-    <connection from="edgeInRight" to="edgeOutRight" fromLane="0" toLane="0" via=":nodeRight_0_0" dir="T" state="M"/>
-    <connection from="edgeInTop" to="edgeOutTop" fromLane="0" toLane="0" via=":nodeTop_0_0" dir="T" state="M"/>
-    <connection from="edgeOutBottom" to="edgeInRight" fromLane="0" toLane="0" via=":nodeCenter_8_0" tl="nodeCenter" linkIndex="8" dir="l" state="O"/>
+    <connection from="edgeInBottom" to="edgeOutBottom" fromLane="0" toLane="0" via=":nodeBottom_0_0" dir="t" state="M"/>
+    <connection from="edgeInLeft" to="edgeOutLeft" fromLane="0" toLane="0" via=":nodeLeft_0_0" dir="t" state="M"/>
+    <connection from="edgeInRight" to="edgeOutRight" fromLane="0" toLane="0" via=":nodeRight_0_0" dir="t" state="M"/>
+    <connection from="edgeInTop" to="edgeOutTop" fromLane="0" toLane="0" via=":nodeTop_0_0" dir="t" state="M"/>
+    <connection from="edgeOutBottom" to="edgeInRight" fromLane="0" toLane="0" via=":nodeCenter_8_0" tl="nodeCenter" linkIndex="8" dir="L" state="O"/>
     <connection from="edgeOutBottom" to="edgeInTop" fromLane="0" toLane="0" via=":nodeCenter_9_0" tl="nodeCenter" linkIndex="9" dir="s" state="O"/>
-    <connection from="edgeOutBottom" to="edgeInLeft" fromLane="0" toLane="0" via=":nodeCenter_10_0" tl="nodeCenter" linkIndex="10" dir="r" state="o"/>
-    <connection from="edgeOutBottom" to="edgeInBottom" fromLane="0" toLane="0" via=":nodeCenter_11_0" tl="nodeCenter" linkIndex="11" dir="T" state="o"/>
-    <connection from="edgeOutLeft" to="edgeInBottom" fromLane="0" toLane="0" via=":nodeCenter_12_0" tl="nodeCenter" linkIndex="12" dir="l" state="o"/>
+    <connection from="edgeOutBottom" to="edgeInLeft" fromLane="0" toLane="0" via=":nodeCenter_10_0" tl="nodeCenter" linkIndex="10" dir="R" state="o"/>
+    <connection from="edgeOutBottom" to="edgeInBottom" fromLane="0" toLane="0" via=":nodeCenter_11_0" tl="nodeCenter" linkIndex="11" dir="t" state="o"/>
+    <connection from="edgeOutLeft" to="edgeInBottom" fromLane="0" toLane="0" via=":nodeCenter_12_0" tl="nodeCenter" linkIndex="12" dir="L" state="o"/>
     <connection from="edgeOutLeft" to="edgeInRight" fromLane="0" toLane="0" via=":nodeCenter_13_0" tl="nodeCenter" linkIndex="13" dir="s" state="o"/>
-    <connection from="edgeOutLeft" to="edgeInTop" fromLane="0" toLane="0" via=":nodeCenter_14_0" tl="nodeCenter" linkIndex="14" dir="r" state="o"/>
-    <connection from="edgeOutLeft" to="edgeInLeft" fromLane="0" toLane="0" via=":nodeCenter_15_0" tl="nodeCenter" linkIndex="15" dir="T" state="o"/>
-    <connection from="edgeOutRight" to="edgeInTop" fromLane="0" toLane="0" via=":nodeCenter_4_0" tl="nodeCenter" linkIndex="4" dir="l" state="o"/>
+    <connection from="edgeOutLeft" to="edgeInTop" fromLane="0" toLane="0" via=":nodeCenter_14_0" tl="nodeCenter" linkIndex="14" dir="R" state="o"/>
+    <connection from="edgeOutLeft" to="edgeInLeft" fromLane="0" toLane="0" via=":nodeCenter_15_0" tl="nodeCenter" linkIndex="15" dir="t" state="o"/>
+    <connection from="edgeOutRight" to="edgeInTop" fromLane="0" toLane="0" via=":nodeCenter_4_0" tl="nodeCenter" linkIndex="4" dir="L" state="o"/>
     <connection from="edgeOutRight" to="edgeInLeft" fromLane="0" toLane="0" via=":nodeCenter_5_0" tl="nodeCenter" linkIndex="5" dir="s" state="o"/>
-    <connection from="edgeOutRight" to="edgeInBottom" fromLane="0" toLane="0" via=":nodeCenter_6_0" tl="nodeCenter" linkIndex="6" dir="r" state="o"/>
-    <connection from="edgeOutRight" to="edgeInRight" fromLane="0" toLane="0" via=":nodeCenter_7_0" tl="nodeCenter" linkIndex="7" dir="T" state="o"/>
-    <connection from="edgeOutTop" to="edgeInLeft" fromLane="0" toLane="0" via=":nodeCenter_0_0" tl="nodeCenter" linkIndex="0" dir="l" state="O"/>
+    <connection from="edgeOutRight" to="edgeInBottom" fromLane="0" toLane="0" via=":nodeCenter_6_0" tl="nodeCenter" linkIndex="6" dir="R" state="o"/>
+    <connection from="edgeOutRight" to="edgeInRight" fromLane="0" toLane="0" via=":nodeCenter_7_0" tl="nodeCenter" linkIndex="7" dir="t" state="o"/>
+    <connection from="edgeOutTop" to="edgeInLeft" fromLane="0" toLane="0" via=":nodeCenter_0_0" tl="nodeCenter" linkIndex="0" dir="L" state="O"/>
     <connection from="edgeOutTop" to="edgeInBottom" fromLane="0" toLane="0" via=":nodeCenter_1_0" tl="nodeCenter" linkIndex="1" dir="s" state="O"/>
-    <connection from="edgeOutTop" to="edgeInRight" fromLane="0" toLane="0" via=":nodeCenter_2_0" tl="nodeCenter" linkIndex="2" dir="r" state="o"/>
-    <connection from="edgeOutTop" to="edgeInTop" fromLane="0" toLane="0" via=":nodeCenter_3_0" tl="nodeCenter" linkIndex="3" dir="T" state="o"/>
+    <connection from="edgeOutTop" to="edgeInRight" fromLane="0" toLane="0" via=":nodeCenter_2_0" tl="nodeCenter" linkIndex="2" dir="R" state="o"/>
+    <connection from="edgeOutTop" to="edgeInTop" fromLane="0" toLane="0" via=":nodeCenter_3_0" tl="nodeCenter" linkIndex="3" dir="t" state="o"/>
 
-    <connection from=":nodeBottom_0" to="edgeOutBottom" fromLane="0" toLane="0" dir="T" state="M"/>
-    <connection from=":nodeCenter_0" to="edgeInLeft" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nodeBottom_0" to="edgeOutBottom" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nodeCenter_0" to="edgeInLeft" fromLane="0" toLane="0" dir="L" state="M"/>
     <connection from=":nodeCenter_1" to="edgeInBottom" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from=":nodeCenter_2" to="edgeInRight" fromLane="0" toLane="0" via=":nodeCenter_16_0" dir="r" state="m"/>
-    <connection from=":nodeCenter_16" to="edgeInRight" fromLane="0" toLane="0" dir="r" state="M"/>
-    <connection from=":nodeCenter_3" to="edgeInTop" fromLane="0" toLane="0" via=":nodeCenter_17_0" dir="T" state="m"/>
-    <connection from=":nodeCenter_17" to="edgeInTop" fromLane="0" toLane="0" dir="T" state="M"/>
-    <connection from=":nodeCenter_4" to="edgeInTop" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nodeCenter_2" to="edgeInRight" fromLane="0" toLane="0" via=":nodeCenter_16_0" dir="R" state="m"/>
+    <connection from=":nodeCenter_16" to="edgeInRight" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":nodeCenter_3" to="edgeInTop" fromLane="0" toLane="0" via=":nodeCenter_17_0" dir="t" state="m"/>
+    <connection from=":nodeCenter_17" to="edgeInTop" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nodeCenter_4" to="edgeInTop" fromLane="0" toLane="0" dir="L" state="M"/>
     <connection from=":nodeCenter_5" to="edgeInLeft" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from=":nodeCenter_6" to="edgeInBottom" fromLane="0" toLane="0" via=":nodeCenter_18_0" dir="r" state="m"/>
-    <connection from=":nodeCenter_18" to="edgeInBottom" fromLane="0" toLane="0" dir="r" state="M"/>
-    <connection from=":nodeCenter_7" to="edgeInRight" fromLane="0" toLane="0" via=":nodeCenter_19_0" dir="T" state="m"/>
-    <connection from=":nodeCenter_19" to="edgeInRight" fromLane="0" toLane="0" dir="T" state="M"/>
-    <connection from=":nodeCenter_8" to="edgeInRight" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nodeCenter_6" to="edgeInBottom" fromLane="0" toLane="0" via=":nodeCenter_18_0" dir="R" state="m"/>
+    <connection from=":nodeCenter_18" to="edgeInBottom" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":nodeCenter_7" to="edgeInRight" fromLane="0" toLane="0" via=":nodeCenter_19_0" dir="t" state="m"/>
+    <connection from=":nodeCenter_19" to="edgeInRight" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nodeCenter_8" to="edgeInRight" fromLane="0" toLane="0" dir="L" state="M"/>
     <connection from=":nodeCenter_9" to="edgeInTop" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from=":nodeCenter_10" to="edgeInLeft" fromLane="0" toLane="0" via=":nodeCenter_20_0" dir="r" state="m"/>
-    <connection from=":nodeCenter_20" to="edgeInLeft" fromLane="0" toLane="0" dir="r" state="M"/>
-    <connection from=":nodeCenter_11" to="edgeInBottom" fromLane="0" toLane="0" via=":nodeCenter_21_0" dir="T" state="m"/>
-    <connection from=":nodeCenter_21" to="edgeInBottom" fromLane="0" toLane="0" dir="T" state="M"/>
-    <connection from=":nodeCenter_12" to="edgeInBottom" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":nodeCenter_10" to="edgeInLeft" fromLane="0" toLane="0" via=":nodeCenter_20_0" dir="R" state="m"/>
+    <connection from=":nodeCenter_20" to="edgeInLeft" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":nodeCenter_11" to="edgeInBottom" fromLane="0" toLane="0" via=":nodeCenter_21_0" dir="t" state="m"/>
+    <connection from=":nodeCenter_21" to="edgeInBottom" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nodeCenter_12" to="edgeInBottom" fromLane="0" toLane="0" dir="L" state="M"/>
     <connection from=":nodeCenter_13" to="edgeInRight" fromLane="0" toLane="0" dir="s" state="M"/>
-    <connection from=":nodeCenter_14" to="edgeInTop" fromLane="0" toLane="0" via=":nodeCenter_22_0" dir="r" state="m"/>
-    <connection from=":nodeCenter_22" to="edgeInTop" fromLane="0" toLane="0" dir="r" state="M"/>
-    <connection from=":nodeCenter_15" to="edgeInLeft" fromLane="0" toLane="0" via=":nodeCenter_23_0" dir="T" state="m"/>
-    <connection from=":nodeCenter_23" to="edgeInLeft" fromLane="0" toLane="0" dir="T" state="M"/>
-    <connection from=":nodeLeft_0" to="edgeOutLeft" fromLane="0" toLane="0" dir="T" state="M"/>
-    <connection from=":nodeRight_0" to="edgeOutRight" fromLane="0" toLane="0" dir="T" state="M"/>
-    <connection from=":nodeTop_0" to="edgeOutTop" fromLane="0" toLane="0" dir="T" state="M"/>
+    <connection from=":nodeCenter_14" to="edgeInTop" fromLane="0" toLane="0" via=":nodeCenter_22_0" dir="R" state="m"/>
+    <connection from=":nodeCenter_22" to="edgeInTop" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":nodeCenter_15" to="edgeInLeft" fromLane="0" toLane="0" via=":nodeCenter_23_0" dir="t" state="m"/>
+    <connection from=":nodeCenter_23" to="edgeInLeft" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nodeLeft_0" to="edgeOutLeft" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nodeRight_0" to="edgeOutRight" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":nodeTop_0" to="edgeOutTop" fromLane="0" toLane="0" dir="t" state="M"/>
 
 </net>
