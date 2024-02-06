@@ -1,6 +1,10 @@
-<!-- my_routes.rou.xml -->
 <routes>
-    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="35"/>
+    <!-- vehicle types & their shape-->
+    <vType id="car" type="car" guiShape="passenger"/>
+    <vType id="bus" type="bus" guiShape="bus"/>
+    <vType id="bike" type="bike" guiShape="motorcycle"/>
+
+    <!-- all possible routes -->
     <route id="routeTB" edges="edgeOutTop edgeInBottom"/>
     <route id="routeTR" edges="edgeOutTop edgeInRight"/>
     <route id="routeTL" edges="edgeOutTop edgeInLeft"/>
@@ -14,16 +18,17 @@
     <route id="routeLB" edges="edgeOutLeft edgeInBottom"/>
     <route id="routeLR" edges="edgeOutLeft edgeInRight"/>
 
+    <!-- traffic -->
     <vehicle id="veh00" type="car" route="routeTB" depart="1" departSpeed="10"/>
     <vehicle id="veh04" type="car" route="routeBR" depart="1" departSpeed="10"/>
-    <vehicle id="veh01" type="car" route="routeTR" depart="2" departSpeed="10"/>
+    <vehicle id="veh01" type="bus" route="routeTR" depart="2" departSpeed="10"/>
     <vehicle id="veh03" type="car" route="routeBT" depart="2" departSpeed="10"/>
-    <vehicle id="veh05" type="car" route="routeBL" depart="2" departSpeed="10"/>
-    <vehicle id="veh06" type="car" route="routeRT" depart="2" departSpeed="10"/>
+    <vehicle id="veh05" type="bike" route="routeBL" depart="2" departSpeed="10"/>
+    <vehicle id="veh06" type="bus" route="routeRT" depart="2" departSpeed="10"/>
     <vehicle id="veh08" type="car" route="routeRL" depart="2" departSpeed="10"/>
-    <vehicle id="veh10" type="car" route="routeLB" depart="2" departSpeed="10"/>
-    <vehicle id="veh07" type="car" route="routeRB" depart="3" departSpeed="10"/>
+    <vehicle id="veh10" type="bike" route="routeLB" depart="2" departSpeed="10"/>
+    <vehicle id="veh07" type="bus" route="routeRB" depart="3" departSpeed="10"/>
     <vehicle id="veh02" type="car" route="routeTL" depart="3" departSpeed="10"/>
-    <vehicle id="veh11" type="car" route="routeLR" depart="3" departSpeed="10"/>
+    <vehicle id="veh11" type="bike" route="routeLR" depart="3" departSpeed="10"/>
     <vehicle id="veh09" type="car" route="routeLT" depart="4" departSpeed="10"/>
 </routes>

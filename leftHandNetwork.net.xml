@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-01-29 11:10:34 by Eclipse SUMO netconvert Version 1.19.0
+<!-- generated on 2024-02-06 17:05:53 by Eclipse SUMO netconvert Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -37,6 +37,8 @@
 
     <location netOffset="50.00,50.00" convBoundary="0.00,0.00,100.00,100.00" origBoundary="-50.00,-50.00,50.00,50.00" projParameter="!"/>
 
+    <type id="bike"/>
+    <type id="bus"/>
     <type id="car"/>
 
     <edge id=":nodeBottom_0" function="internal">

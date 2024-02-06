@@ -1,4 +1,4 @@
-<!-- defines edges, lanes, & their properties -->
+<!-- edges b/w nodes & their properties -->
 <edges>
     <edge id="edgeOutTop" from="nodeTop" to="nodeCenter" numLanes="1" speed="13.89" length="100" tl="tl1"/>
     <edge id="edgeOutBottom" from="nodeBottom" to="nodeCenter" numLanes="1" speed="13.89" length="100" tl="tl2"/>

@@ -1,4 +1,6 @@
-<!-- defines vehicle types & their properties -->
+<!-- vehicle types & their properties -->
 <types>
-    <type id="car" length="20.0" maxSpeed="13.89" accel="2.6" decel="4.5" sigma="0.5"/>
+    <type id="car" length="10.0" maxSpeed="20.0" accel="2.0" decel="3.5" sigma="0.5"/>
+    <type id="bus" length="20.0" maxSpeed="10.0" accel="1.0" decel="2.5" sigma="0.5"/>
+    <type id="bike" length="5.0" maxSpeed="15.0" accel="2.6" decel="4.5" sigma="0.5"/>
 </types>
