@@ -6,6 +6,10 @@
     </input>
 
     <output>
+        <queue-output value="output/queues.xml"/>
+        <tripinfo-output value="output/tripinfo.xml"/>
+        <summary-output value="output/summary.xml"/>
+        <vehroute-output value="output/vehroutes.xml"/>
     </output>
 
     <time>

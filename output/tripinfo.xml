@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-02-06 17:14:42 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="leftHandNetwork.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+    </input>
+
+    <output>
+        <queue-output value="output/queues.xml"/>
+        <summary-output value="output/summary.xml"/>
+        <tripinfo-output value="output/tripinfo.xml"/>
+        <vehroute-output value="output/vehroutes.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="2000"/>
+    </time>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="veh00" depart="1.00" departLane="edgeOutTop_0" departPos="5.10" departSpeed="10.00" departDelay="0.00" arrival="17.00" arrivalLane="edgeInBottom_0" arrivalPos="100.00" arrivalSpeed="14.04" duration="16.00" routeLength="209.30" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="0.85" rerouteNo="0" devices="vehroute_veh00 tripinfo_veh00" vType="car" speedFactor="1.06" vaporized=""/>
+    <tripinfo id="veh04" depart="1.00" departLane="edgeOutBottom_0" departPos="5.10" departSpeed="10.00" departDelay="0.00" arrival="20.00" arrivalLane="edgeInRight_0" arrivalPos="100.00" arrivalSpeed="11.78" duration="19.00" routeLength="203.93" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="2.78" rerouteNo="0" devices="vehroute_veh04 tripinfo_veh04" vType="car" speedFactor="0.94" vaporized=""/>
+    <tripinfo id="veh03" depart="3.00" departLane="edgeOutBottom_0" departPos="5.10" departSpeed="10.00" departDelay="1.00" arrival="22.00" arrivalLane="edgeInTop_0" arrivalPos="100.00" arrivalSpeed="13.95" duration="19.00" routeLength="209.30" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="4.29" rerouteNo="0" devices="vehroute_veh03 tripinfo_veh03" vType="car" speedFactor="1.08" vaporized=""/>
+    <tripinfo id="veh01" depart="3.00" departLane="edgeOutTop_0" departPos="5.10" departSpeed="10.00" departDelay="1.00" arrival="26.00" arrivalLane="edgeInRight_0" arrivalPos="100.00" arrivalSpeed="12.86" duration="23.00" routeLength="209.10" waitingTime="1.00" waitingCount="1" stopTime="0.00" timeLoss="6.71" rerouteNo="0" devices="vehroute_veh01 tripinfo_veh01" vType="bus" speedFactor="1.01" vaporized=""/>
+    <tripinfo id="veh02" depart="4.00" departLane="edgeOutTop_0" departPos="5.10" departSpeed="10.00" departDelay="1.00" arrival="29.00" arrivalLane="edgeInLeft_0" arrivalPos="100.00" arrivalSpeed="11.69" duration="25.00" routeLength="203.93" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="6.17" rerouteNo="0" devices="vehroute_veh02 tripinfo_veh02" vType="car" speedFactor="0.86" vaporized=""/>
+    <tripinfo id="veh05" depart="5.00" departLane="edgeOutBottom_0" departPos="5.10" departSpeed="10.00" departDelay="3.00" arrival="30.00" arrivalLane="edgeInLeft_0" arrivalPos="100.00" arrivalSpeed="13.41" duration="25.00" routeLength="209.10" waitingTime="1.00" waitingCount="1" stopTime="0.00" timeLoss="9.71" rerouteNo="0" devices="vehroute_veh05 tripinfo_veh05" vType="bike" speedFactor="1.03" vaporized=""/>
+    <tripinfo id="veh06" depart="2.00" departLane="edgeOutRight_0" departPos="5.10" departSpeed="10.00" departDelay="0.00" arrival="57.00" arrivalLane="edgeInTop_0" arrivalPos="100.00" arrivalSpeed="11.12" duration="55.00" routeLength="203.93" waitingTime="32.00" waitingCount="1" stopTime="0.00" timeLoss="36.63" rerouteNo="0" devices="vehroute_veh06 tripinfo_veh06" vType="bus" speedFactor="0.83" vaporized=""/>
+    <tripinfo id="veh10" depart="2.00" departLane="edgeOutLeft_0" departPos="5.10" departSpeed="10.00" departDelay="0.00" arrival="57.00" arrivalLane="edgeInBottom_0" arrivalPos="100.00" arrivalSpeed="11.78" duration="55.00" routeLength="203.93" waitingTime="31.00" waitingCount="1" stopTime="0.00" timeLoss="37.25" rerouteNo="0" devices="vehroute_veh10 tripinfo_veh10" vType="bike" speedFactor="0.89" vaporized=""/>
+    <tripinfo id="veh08" depart="4.00" departLane="edgeOutRight_0" departPos="5.10" departSpeed="10.00" departDelay="2.00" arrival="58.00" arrivalLane="edgeInLeft_0" arrivalPos="100.00" arrivalSpeed="13.78" duration="54.00" routeLength="209.30" waitingTime="30.00" waitingCount="1" stopTime="0.00" timeLoss="39.12" rerouteNo="0" devices="vehroute_veh08 tripinfo_veh08" vType="car" speedFactor="1.05" vaporized=""/>
+    <tripinfo id="veh11" depart="4.00" departLane="edgeOutLeft_0" departPos="5.10" departSpeed="10.00" departDelay="1.00" arrival="58.00" arrivalLane="edgeInRight_0" arrivalPos="100.00" arrivalSpeed="14.80" duration="54.00" routeLength="209.30" waitingTime="31.00" waitingCount="1" stopTime="0.00" timeLoss="39.56" rerouteNo="0" devices="vehroute_veh11 tripinfo_veh11" vType="bike" speedFactor="1.09" vaporized=""/>
+    <tripinfo id="veh07" depart="6.00" departLane="edgeOutRight_0" departPos="5.10" departSpeed="10.00" departDelay="3.00" arrival="62.00" arrivalLane="edgeInBottom_0" arrivalPos="100.00" arrivalSpeed="12.53" duration="56.00" routeLength="209.10" waitingTime="28.00" waitingCount="1" stopTime="0.00" timeLoss="38.79" rerouteNo="0" devices="vehroute_veh07 tripinfo_veh07" vType="bus" speedFactor="0.94" vaporized=""/>
+    <tripinfo id="veh09" depart="6.00" departLane="edgeOutLeft_0" departPos="5.10" departSpeed="10.00" departDelay="2.00" arrival="62.00" arrivalLane="edgeInTop_0" arrivalPos="100.00" arrivalSpeed="13.47" duration="56.00" routeLength="209.10" waitingTime="30.00" waitingCount="1" stopTime="0.00" timeLoss="40.27" rerouteNo="0" devices="vehroute_veh09 tripinfo_veh09" vType="car" speedFactor="1.03" vaporized=""/>
+</tripinfos>
