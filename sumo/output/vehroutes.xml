@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-02-09 19:00:43 by Eclipse SUMO GUI Version 1.19.0
+<!-- generated on 2024-02-09 20:42:06 by Eclipse SUMO GUI Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -24,4 +24,1056 @@
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="1" type="bus" depart="14.00" arrival="34.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="3" type="bus" depart="29.00" arrival="49.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="0" type="bike" depart="8.00" arrival="55.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="2" type="car" depart="20.00" arrival="58.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="5" type="car" depart="43.00" arrival="67.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="7" type="car" depart="60.00" arrival="81.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="9" type="bus" depart="75.00" arrival="98.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="4" type="car" depart="37.00" arrival="101.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="6" type="bike" depart="52.00" arrival="103.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="8" type="car" depart="65.00" arrival="106.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="10" type="bike" depart="84.00" arrival="108.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="14" type="bike" depart="115.00" arrival="137.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="12" type="bike" depart="101.00" arrival="146.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="15" type="bike" depart="125.00" arrival="149.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="11" type="car" depart="92.00" arrival="153.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="13" type="bus" depart="108.00" arrival="154.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="16" type="bus" depart="132.00" arrival="156.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="17" type="bike" depart="140.00" arrival="162.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="18" type="bike" depart="150.00" arrival="171.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="19" type="bike" depart="159.00" arrival="179.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="20" type="car" depart="168.00" arrival="190.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="22" type="car" depart="185.00" arrival="207.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="23" type="car" depart="194.00" arrival="214.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="21" type="bus" depart="176.00" arrival="236.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="24" type="bike" depart="202.00" arrival="237.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="25" type="bike" depart="207.00" arrival="240.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="26" type="bus" depart="212.00" arrival="242.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="27" type="car" depart="217.00" arrival="243.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="28" type="bike" depart="225.00" arrival="245.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="30" type="car" depart="239.00" arrival="257.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="31" type="car" depart="249.00" arrival="269.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="33" type="car" depart="263.00" arrival="280.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="29" type="bike" depart="234.00" arrival="282.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="36" type="car" depart="286.00" arrival="308.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="32" type="bike" depart="257.00" arrival="326.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="35" type="car" depart="279.00" arrival="328.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="38" type="bike" depart="299.00" arrival="334.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="39" type="bike" depart="305.00" arrival="337.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="34" type="bike" depart="272.00" arrival="339.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="37" type="bike" depart="293.00" arrival="340.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="40" type="car" depart="313.00" arrival="342.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="44" type="car" depart="339.00" arrival="358.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="41" type="bike" depart="319.00" arrival="372.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="42" type="bus" depart="324.00" arrival="373.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="43" type="bus" depart="334.00" arrival="376.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="45" type="bike" depart="345.00" arrival="378.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="46" type="bus" depart="353.00" arrival="381.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="48" type="bike" depart="366.00" arrival="389.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="47" type="car" depart="359.00" arrival="391.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="49" type="bike" depart="373.00" arrival="417.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="50" type="bike" depart="380.00" arrival="418.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="53" type="bus" depart="400.00" arrival="420.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="51" type="car" depart="387.00" arrival="423.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="52" type="car" depart="394.00" arrival="425.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="55" type="bus" depart="412.00" arrival="432.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="57" type="car" depart="427.00" arrival="447.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="58" type="bike" depart="434.00" arrival="455.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="54" type="car" depart="406.00" arrival="461.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="56" type="bus" depart="423.00" arrival="464.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="59" type="car" depart="440.00" arrival="466.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="60" type="car" depart="448.00" arrival="469.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="61" type="car" depart="457.00" arrival="476.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="62" type="car" depart="465.00" arrival="484.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="64" type="bus" depart="481.00" arrival="503.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="63" type="bike" depart="474.00" arrival="506.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="66" type="bike" depart="497.00" arrival="517.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="68" type="bus" depart="509.00" arrival="530.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="69" type="bike" depart="519.00" arrival="540.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="65" type="car" depart="489.00" arrival="552.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="67" type="car" depart="503.00" arrival="554.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="70" type="car" depart="527.00" arrival="556.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="72" type="bus" depart="544.00" arrival="566.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="74" type="bus" depart="561.00" arrival="583.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="75" type="bus" depart="569.00" arrival="596.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="71" type="bike" depart="536.00" arrival="599.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="73" type="car" depart="552.00" arrival="600.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="76" type="bus" depart="577.00" arrival="603.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="81" type="bike" depart="616.00" arrival="637.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="78" type="bus" depart="595.00" arrival="641.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="77" type="bus" depart="585.00" arrival="648.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="82" type="car" depart="624.00" arrival="650.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="79" type="bike" depart="603.00" arrival="651.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="80" type="car" depart="607.00" arrival="653.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="85" type="bike" depart="644.00" arrival="664.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="86" type="bike" depart="649.00" arrival="670.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="87" type="bus" depart="657.00" arrival="678.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="83" type="bus" depart="630.00" arrival="687.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="84" type="bike" depart="635.00" arrival="688.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="89" type="bike" depart="674.00" arrival="696.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="93" type="bus" depart="703.00" arrival="726.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="88" type="bike" depart="665.00" arrival="731.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="92" type="bus" depart="696.00" arrival="732.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="90" type="bus" depart="682.00" arrival="733.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="91" type="bike" depart="688.00" arrival="737.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="94" type="car" depart="711.00" arrival="775.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="97" type="car" depart="738.00" arrival="779.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="101" type="bus" depart="767.00" arrival="789.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="102" type="car" depart="774.00" arrival="794.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="95" type="bus" depart="720.00" arrival="797.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="96" type="bus" depart="728.00" arrival="800.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="98" type="bike" depart="743.00" arrival="801.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="99" type="bike" depart="750.00" arrival="804.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="105" type="bus" depart="790.00" arrival="810.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="100" type="bus" depart="758.00" arrival="820.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="104" type="bus" depart="784.00" arrival="825.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="103" type="bus" depart="779.00" arrival="826.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="106" type="bike" depart="800.00" arrival="828.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="109" type="bus" depart="820.00" arrival="842.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="110" type="car" depart="829.00" arrival="851.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="107" type="car" depart="804.00" arrival="866.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="108" type="car" depart="812.00" arrival="868.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="111" type="bus" depart="836.00" arrival="873.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="113" type="bus" depart="852.00" arrival="874.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="114" type="bike" depart="859.00" arrival="878.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="116" type="car" depart="874.00" arrival="892.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="112" type="car" depart="845.00" arrival="911.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="117" type="car" depart="881.00" arrival="914.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="115" type="bus" depart="867.00" arrival="917.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="120" type="bike" depart="903.00" arrival="923.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="121" type="bus" depart="912.00" arrival="930.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="123" type="car" depart="927.00" arrival="948.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="124" type="car" depart="932.00" arrival="952.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="118" type="bike" depart="889.00" arrival="956.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="119" type="car" depart="895.00" arrival="956.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="122" type="car" depart="920.00" arrival="958.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="127" type="bus" depart="960.00" arrival="983.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="129" type="bike" depart="973.00" arrival="994.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="125" type="bus" depart="942.00" arrival="1000.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="126" type="bus" depart="952.00" arrival="1000.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="128" type="car" depart="966.00" arrival="1003.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="130" type="car" depart="979.00" arrival="1046.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="131" type="bike" depart="988.00" arrival="1046.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="133" type="bus" depart="1003.00" arrival="1049.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="132" type="bike" depart="994.00" arrival="1051.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="134" type="car" depart="1011.00" arrival="1053.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="135" type="car" depart="1020.00" arrival="1055.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="136" type="car" depart="1027.00" arrival="1058.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="137" type="bike" depart="1033.00" arrival="1060.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="138" type="bike" depart="1040.00" arrival="1062.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="139" type="bike" depart="1049.00" arrival="1069.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="141" type="bike" depart="1063.00" arrival="1080.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="140" type="car" depart="1058.00" arrival="1090.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="143" type="bus" depart="1074.00" arrival="1092.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="145" type="car" depart="1092.00" arrival="1112.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="146" type="bus" depart="1096.00" arrival="1116.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="142" type="bike" depart="1069.00" arrival="1137.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="147" type="car" depart="1102.00" arrival="1139.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="144" type="car" depart="1082.00" arrival="1143.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="148" type="car" depart="1111.00" arrival="1143.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="151" type="car" depart="1136.00" arrival="1156.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="154" type="bus" depart="1154.00" arrival="1175.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="149" type="bus" depart="1121.00" arrival="1181.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="150" type="car" depart="1126.00" arrival="1181.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="152" type="bus" depart="1143.00" arrival="1182.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="153" type="car" depart="1149.00" arrival="1187.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="157" type="bus" depart="1175.00" arrival="1195.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="161" type="car" depart="1202.00" arrival="1220.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="155" type="bus" depart="1160.00" arrival="1225.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="159" type="bike" depart="1187.00" arrival="1226.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="160" type="bus" depart="1193.00" arrival="1230.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="163" type="car" depart="1215.00" arrival="1233.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="156" type="bus" depart="1166.00" arrival="1237.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="158" type="bus" depart="1180.00" arrival="1240.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="164" type="car" depart="1221.00" arrival="1240.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="165" type="bus" depart="1229.00" arrival="1251.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="166" type="bus" depart="1237.00" arrival="1259.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="162" type="bike" depart="1209.00" arrival="1271.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="167" type="bus" depart="1244.00" arrival="1273.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="169" type="car" depart="1260.00" arrival="1281.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="170" type="bus" depart="1267.00" arrival="1287.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="172" type="car" depart="1281.00" arrival="1302.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="173" type="bus" depart="1288.00" arrival="1315.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="175" type="bike" depart="1300.00" arrival="1323.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="168" type="bike" depart="1254.00" arrival="1325.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="171" type="bike" depart="1276.00" arrival="1327.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="176" type="car" depart="1308.00" arrival="1329.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="178" type="car" depart="1322.00" arrival="1343.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="179" type="car" depart="1330.00" arrival="1349.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="174" type="bus" depart="1295.00" arrival="1361.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="177" type="bike" depart="1315.00" arrival="1363.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="180" type="bike" depart="1336.00" arrival="1365.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="181" type="bus" depart="1342.00" arrival="1370.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="183" type="bike" depart="1356.00" arrival="1374.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="184" type="bike" depart="1366.00" arrival="1389.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="185" type="bike" depart="1372.00" arrival="1394.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="186" type="bus" depart="1380.00" arrival="1405.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="182" type="bus" depart="1349.00" arrival="1410.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="188" type="car" depart="1397.00" arrival="1451.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="187" type="car" depart="1388.00" arrival="1452.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="189" type="car" depart="1407.00" arrival="1454.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="191" type="car" depart="1424.00" arrival="1456.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="193" type="bike" depart="1441.00" arrival="1461.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="190" type="car" depart="1416.00" arrival="1464.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="192" type="car" depart="1432.00" arrival="1466.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="196" type="bike" depart="1466.00" arrival="1487.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="194" type="car" depart="1452.00" arrival="1496.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="195" type="bus" depart="1460.00" arrival="1500.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="197" type="bus" depart="1472.00" arrival="1503.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="198" type="bus" depart="1481.00" arrival="1504.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="201" type="car" depart="1504.00" arrival="1542.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="199" type="car" depart="1489.00" arrival="1543.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="200" type="car" depart="1496.00" arrival="1545.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="202" type="car" depart="1513.00" arrival="1546.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="204" type="car" depart="1529.00" arrival="1548.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="207" type="car" depart="1548.00" arrival="1570.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="209" type="bus" depart="1560.00" arrival="1581.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="203" type="car" depart="1521.00" arrival="1585.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="205" type="bike" depart="1536.00" arrival="1586.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="206" type="bike" depart="1545.00" arrival="1588.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="208" type="car" depart="1553.00" arrival="1590.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="210" type="bike" depart="1565.00" arrival="1595.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="211" type="bike" depart="1573.00" arrival="1596.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="214" type="car" depart="1593.00" arrival="1618.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="215" type="bus" depart="1599.00" arrival="1620.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="212" type="bike" depart="1579.00" arrival="1630.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="213" type="bike" depart="1586.00" arrival="1633.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="217" type="car" depart="1616.00" arrival="1637.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="216" type="bus" depart="1609.00" arrival="1641.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="218" type="bus" depart="1626.00" arrival="1646.00">
+        <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="219" type="car" depart="1635.00" arrival="1658.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="220" type="bike" depart="1643.00" arrival="1676.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="221" type="bike" depart="1648.00" arrival="1679.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="224" type="bike" depart="1668.00" arrival="1689.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="227" type="bike" depart="1693.00" arrival="1714.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="225" type="car" depart="1675.00" arrival="1721.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="222" type="car" depart="1657.00" arrival="1722.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="228" type="bike" depart="1699.00" arrival="1723.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="223" type="bus" depart="1662.00" arrival="1724.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="226" type="bus" depart="1684.00" arrival="1725.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="230" type="bike" depart="1713.00" arrival="1734.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="232" type="bus" depart="1732.00" arrival="1754.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="233" type="bike" depart="1740.00" arrival="1765.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="229" type="bus" depart="1706.00" arrival="1766.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="231" type="bus" depart="1722.00" arrival="1768.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="236" type="bus" depart="1760.00" arrival="1780.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="237" type="bus" depart="1767.00" arrival="1787.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="234" type="bus" depart="1747.00" arrival="1811.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="235" type="bike" depart="1754.00" arrival="1811.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="238" type="bus" depart="1775.00" arrival="1812.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="239" type="bike" depart="1782.00" arrival="1812.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="242" type="bike" depart="1800.00" arrival="1822.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="243" type="bus" depart="1808.00" arrival="1827.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="244" type="bus" depart="1815.00" arrival="1834.00">
+        <route edges="edgeOutTop edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="245" type="bus" depart="1824.00" arrival="1845.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="240" type="bus" depart="1790.00" arrival="1857.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="241" type="car" depart="1795.00" arrival="1858.00">
+        <route edges="edgeOutRight edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="246" type="bike" depart="1832.00" arrival="1863.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="247" type="car" depart="1837.00" arrival="1865.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="250" type="car" depart="1862.00" arrival="1885.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="252" type="bike" depart="1876.00" arrival="1898.00">
+        <route edges="edgeOutRight edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="248" type="bike" depart="1846.00" arrival="1901.00">
+        <route edges="edgeOutBottom edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="249" type="bus" depart="1853.00" arrival="1903.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="251" type="car" depart="1867.00" arrival="1907.00">
+        <route edges="edgeOutBottom edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="255" type="bike" depart="1901.00" arrival="1928.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="257" type="bike" depart="1917.00" arrival="1937.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="254" type="bike" depart="1895.00" arrival="1946.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="258" type="bus" depart="1923.00" arrival="1948.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="253" type="bike" depart="1885.00" arrival="1950.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="256" type="bike" depart="1909.00" arrival="1953.00">
+        <route edges="edgeOutRight edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="261" type="bike" depart="1944.00" arrival="1962.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="263" type="bus" depart="1959.00" arrival="1981.00">
+        <route edges="edgeOutLeft edgeInTop"/>
+    </vehicle>
+
+    <vehicle id="259" type="bike" depart="1933.00" arrival="1992.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="262" type="bike" depart="1953.00" arrival="1994.00">
+        <route edges="edgeOutTop edgeInRight"/>
+    </vehicle>
+
 </routes>
