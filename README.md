@@ -3,7 +3,7 @@
 Developing a reinforcement agent to decrease the average waiting time of traffic by controlling traffic lights at road intersection.
 
 ## Flow
-![flow](https://github.com/Divyansh-Gemini/reinforcement-learning-model-to-control-traffic-lights-at-road-intersection/assets/88696617/00ecccf8-68f7-4560-85ad-5739c7cad944)
+![image](https://github.com/Divyansh-Gemini/reinforcement-learning-model-to-control-traffic-lights-at-road-intersection/assets/88696617/eecbcf53-8feb-42f2-8cb5-1f20fbce207a)
 
 ## Software Required
 * IDE for Python
