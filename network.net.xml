@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-02-09 11:43:49 by Eclipse SUMO netconvert Version 1.19.0
+<!-- generated on 2024-02-09 15:47:03 by Eclipse SUMO netconvert Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
         <node-files value="nodes.nod.xml"/>
         <edge-files value="edges.edg.xml"/>
-        <type-files value="types.type.xml"/>
     </input>
 
     <output>
@@ -23,10 +22,6 @@
 <net version="1.16" junctionCornerDetail="5" lefthand="true" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
 
     <location netOffset="50.00,50.00" convBoundary="0.00,-0.00,100.00,100.00" origBoundary="-50.00,-50.00,50.00,50.00" projParameter="!"/>
-
-    <type id="bike"/>
-    <type id="bus"/>
-    <type id="car"/>
 
     <edge id=":nodeBottom_0" function="internal">
         <lane id=":nodeBottom_0_0" index="0" speed="3.65" length="4.67" shape="51.60,-0.00 50.80,-1.20 50.00,-1.60 49.20,-1.20 48.40,-0.00"/>
@@ -235,4 +230,9 @@
     <connection from=":nodeRight_0" to="edgeOutRight" fromLane="0" toLane="0" dir="T" state="M"/>
     <connection from=":nodeTop_0" to="edgeOutTop" fromLane="0" toLane="0" dir="T" state="M"/>
 
+    <additional>
+        <vType id="car" type="car" guiShape="passenger"/>
+        <vType id="bus" type="bus" guiShape="bus"/>
+        <vType id="bike" type="bike" guiShape="motorcycle"/>
+    </additional>
 </net>
