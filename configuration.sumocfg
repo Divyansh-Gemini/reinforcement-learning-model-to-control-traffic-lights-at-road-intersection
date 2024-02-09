@@ -1,7 +1,7 @@
 <!-- simulation configuration -->
 <configuration>
     <input>
-        <net-file value="leftHandNetwork.net.xml"/>
+        <net-file value="network.net.xml"/>
         <route-files value="routes.rou.xml"/>
     </input>
 

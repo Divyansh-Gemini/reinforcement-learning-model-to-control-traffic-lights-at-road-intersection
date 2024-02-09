@@ -16,4 +16,4 @@ def calculate_avg_waiting_time(file_path):
     return avg_waiting_time
 
 avg_waiting_time = calculate_avg_waiting_time('output/tripinfo.xml')
-print(f'Average waiting time:', avg_waiting_time)
+print('Average waiting time:', avg_waiting_time)

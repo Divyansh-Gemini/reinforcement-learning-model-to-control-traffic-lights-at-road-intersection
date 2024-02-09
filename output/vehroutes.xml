@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-02-06 17:14:42 by Eclipse SUMO GUI Version 1.19.0
+<!-- generated on 2024-02-09 11:43:53 by Eclipse SUMO GUI Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="leftHandNetwork.net.xml"/>
+        <net-file value="network.net.xml"/>
         <route-files value="routes.rou.xml"/>
     </input>
 
@@ -24,51 +24,51 @@
 -->
 
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <vehicle id="veh00" type="car" depart="1.00" departSpeed="10.00" speedFactor="1.0600" arrival="17.00">
+    <vehicle id="veh00" type="car" depart="1.00" departSpeed="10.00" speedFactor="1.0600" arrival="16.00">
         <route edges="edgeOutTop edgeInBottom"/>
     </vehicle>
 
-    <vehicle id="veh04" type="car" depart="1.00" departSpeed="10.00" speedFactor="0.9383" arrival="20.00">
-        <route edges="edgeOutBottom edgeInRight"/>
-    </vehicle>
-
-    <vehicle id="veh03" type="car" depart="3.00" departSpeed="10.00" speedFactor="1.0827" arrival="22.00">
-        <route edges="edgeOutBottom edgeInTop"/>
-    </vehicle>
-
-    <vehicle id="veh01" type="bus" depart="3.00" departSpeed="10.00" speedFactor="1.0104" arrival="26.00">
+    <vehicle id="veh01" type="bus" depart="3.00" departSpeed="10.00" speedFactor="1.0104" arrival="22.00">
         <route edges="edgeOutTop edgeInRight"/>
     </vehicle>
 
-    <vehicle id="veh02" type="car" depart="4.00" departSpeed="10.00" speedFactor="0.8569" arrival="29.00">
+    <vehicle id="veh02" type="car" depart="4.00" departSpeed="10.00" speedFactor="0.8569" arrival="26.00">
         <route edges="edgeOutTop edgeInLeft"/>
+    </vehicle>
+
+    <vehicle id="veh04" type="car" depart="1.00" departSpeed="10.00" speedFactor="0.9383" arrival="27.00">
+        <route edges="edgeOutBottom edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="veh03" type="car" depart="3.00" departSpeed="10.00" speedFactor="1.0827" arrival="28.00">
+        <route edges="edgeOutBottom edgeInTop"/>
     </vehicle>
 
     <vehicle id="veh05" type="bike" depart="5.00" departSpeed="10.00" speedFactor="1.0303" arrival="30.00">
         <route edges="edgeOutBottom edgeInLeft"/>
     </vehicle>
 
-    <vehicle id="veh06" type="bus" depart="2.00" departSpeed="10.00" speedFactor="0.8310" arrival="57.00">
+    <vehicle id="veh06" type="bus" depart="2.00" departSpeed="10.00" speedFactor="0.8310" arrival="61.00">
         <route edges="edgeOutRight edgeInTop"/>
     </vehicle>
 
-    <vehicle id="veh10" type="bike" depart="2.00" departSpeed="10.00" speedFactor="0.8860" arrival="57.00">
-        <route edges="edgeOutLeft edgeInBottom"/>
-    </vehicle>
-
-    <vehicle id="veh08" type="car" depart="4.00" departSpeed="10.00" speedFactor="1.0458" arrival="58.00">
+    <vehicle id="veh08" type="car" depart="4.00" departSpeed="10.00" speedFactor="1.0458" arrival="61.00">
         <route edges="edgeOutRight edgeInLeft"/>
     </vehicle>
 
-    <vehicle id="veh11" type="bike" depart="4.00" departSpeed="10.00" speedFactor="1.0907" arrival="58.00">
-        <route edges="edgeOutLeft edgeInRight"/>
-    </vehicle>
-
-    <vehicle id="veh07" type="bus" depart="6.00" departSpeed="10.00" speedFactor="0.9379" arrival="62.00">
+    <vehicle id="veh07" type="bus" depart="6.00" departSpeed="10.00" speedFactor="0.9379" arrival="65.00">
         <route edges="edgeOutRight edgeInBottom"/>
     </vehicle>
 
-    <vehicle id="veh09" type="car" depart="6.00" departSpeed="10.00" speedFactor="1.0263" arrival="62.00">
+    <vehicle id="veh10" type="bike" depart="2.00" departSpeed="10.00" speedFactor="0.8860" arrival="68.00">
+        <route edges="edgeOutLeft edgeInBottom"/>
+    </vehicle>
+
+    <vehicle id="veh11" type="bike" depart="4.00" departSpeed="10.00" speedFactor="1.0907" arrival="68.00">
+        <route edges="edgeOutLeft edgeInRight"/>
+    </vehicle>
+
+    <vehicle id="veh09" type="car" depart="6.00" departSpeed="10.00" speedFactor="1.0263" arrival="70.00">
         <route edges="edgeOutLeft edgeInTop"/>
     </vehicle>
 
