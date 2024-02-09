@@ -1,4 +1,5 @@
 <!-- simulation configuration -->
+
 <configuration>
     <input>
         <net-file value="network.net.xml"/>

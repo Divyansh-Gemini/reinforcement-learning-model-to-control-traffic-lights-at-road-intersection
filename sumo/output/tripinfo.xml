@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-02-09 19:00:43 by Eclipse SUMO GUI Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="sumo/network.net.xml"/>
+        <route-files value="sumo/sorted_random_route.rou.xml"/>
+    </input>
+
+    <output>
+        <queue-output value="sumo/output/queues.xml"/>
+        <summary-output value="sumo/output/summary.xml"/>
+        <tripinfo-output value="sumo/output/tripinfo.xml"/>
+        <vehroute-output value="sumo/output/vehroutes.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="2000"/>
+    </time>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+</tripinfos>

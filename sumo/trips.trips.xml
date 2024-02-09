@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-02-09 16:06:14.616469 by randomTrips.py v1_19_0+0000-baa66a0f364
+<!-- generated on 2024-02-09 18:59:46.106611 by randomTrips.py v1_19_0+0000-baa66a0f364
 <configuration>
-    <net-file value="network.net.xml"/>
+    <net-file value="sumo/network.net.xml"/>
+    <output-trip-file value="sumo/trips.trips.xml"/>
     <end value="1000.0"/>
 </configuration>
 -->

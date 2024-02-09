@@ -2,21 +2,12 @@ import random
 import xml.etree.ElementTree as ET
 
 def modify_trips_file(trips_file, output_file, vehicle_types, routes):
-    """
-    Modifies a trips file to assign random vehicle types and routes, removing from and to attributes.
-
-    Args:
-        trips_file: Path to the generated trips file (.trips.xml).
-        output_file: Path to save the modified trips file.
-        vehicle_types: List of available vehicle type IDs.
-        edges: Dictionary of available edge IDs grouped by direction.
-    """
     tree = ET.parse(trips_file)
     root = tree.getroot()
 
     # Modify each trip element
     for trip in root.findall('trip'):
-        # Remove old from and to attributes if they exist
+        # Remove old from and to attributes
         if "from" in trip.attrib:
             del trip.attrib["from"]
         if "to" in trip.attrib:
@@ -36,11 +27,13 @@ def modify_trips_file(trips_file, output_file, vehicle_types, routes):
     tree.write(output_file)
 
 # file names
-trips_file = 'trips.trips.xml'
-output_file = 'modified_trips.trips.xml'
+trips_file = 'sumo/trips.trips.xml'
+output_file = 'sumo/modified_trips.trips.xml'
 
-# vehicle types and edges
+# vehicle types
 vehicle_types = ['car', 'bus', 'bike']
+
+# routes
 routes = {
     'routeTB': ['edgeOutTop', 'edgeInBottom'],
     'routeTR': ['edgeOutTop', 'edgeInRight'],
@@ -58,4 +51,4 @@ routes = {
 
 modify_trips_file(trips_file, output_file, vehicle_types, routes)
 
-print('Modified trips saved to:', output_file)
+print(f'--> Added random vehicle types & routes in {output_file}')
