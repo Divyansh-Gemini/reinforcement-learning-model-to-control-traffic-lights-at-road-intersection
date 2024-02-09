@@ -2,7 +2,7 @@
 <configuration>
     <input>
         <net-file value="network.net.xml"/>
-        <route-files value="routes.rou.xml"/>
+        <route-files value="sorted_random_route.rou.xml"/>
     </input>
 
     <output>

@@ -134,10 +134,10 @@
     </edge>
 
     <tlLogic id="nodeCenter" type="static" programID="0" offset="0">
-        <phase duration="42" state="GGggrrrrGGggrrrr"/>
-        <phase duration="3"  state="yyyyrrrryyyyrrrr"/>
-        <phase duration="42" state="rrrrGGggrrrrGGgg"/>
-        <phase duration="3"  state="rrrryyyyrrrryyyy"/>
+        <phase duration="60" state="GGggrrrrGGggrrrr"/>
+        <phase duration="5"  state="yyyyrrrryyyyrrrr"/>
+        <phase duration="60" state="rrrrGGggrrrrGGgg"/>
+        <phase duration="5"  state="rrrryyyyrrrryyyy"/>
     </tlLogic>
 
     <junction id="nodeBottom" type="priority" x="50.00" y="-0.00" incLanes="edgeInBottom_0" intLanes=":nodeBottom_0_0" shape="50.00,-0.00 53.20,-0.00 50.00,-0.00">
